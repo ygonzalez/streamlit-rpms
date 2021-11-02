@@ -22,16 +22,19 @@ st_lottie(lottie_book, height=200)
 
 # status_text = st.sidebar.empty()
 
-options = st.multiselect(
-    'Include in chart:',
-    ['All','White','Asian', 'Latino','African American','Unknown'])
 ###############################################################################################
-# st.header('School Demograpics')
+# st.header('Enrollment Demograpics')
 
 df = pd.read_csv('data/Historical Demographic Data.csv')
-
-# Show total, white, non-white, indivdual groups over time
-fig = px.bar(df, x='Year', y=['White','Asian', 'Latino','African American','Unknown'], title="Enrollment by Demographic",
+st.subheader('Enrollment Demographics - Raw Counts')
+options = st.multiselect(
+    'Include in chart:',
+    ['White','Asian', 'Latino','African American','Multi-racial','Prefer Not To Answer'],
+    default = ['White','Asian', 'Latino','African American','Multi-racial','Prefer Not To Answer']
+)
+# Show total, white, non-white, individual groups over time
+fig = px.bar(df, x='Year', y=options,
+             title="Enrollment by Demographic - Raw Counts",
              labels={
                  "value": "Enrollment",
                  "Year": "School Year",
@@ -39,16 +42,45 @@ fig = px.bar(df, x='Year', y=['White','Asian', 'Latino','African American','Unkn
              }, height=600, width=900)
 st.plotly_chart(fig)
 
+st.subheader('2021-2022')
 
+col1, col2, col3, col4, col5= st.columns(5)
+col1.metric("Asian", "40", "-5")
+col2.metric("African American", "9", "-1")
+col3.metric("Latino", "33", "-5")
+col4.metric("Multi-racial", "10", "10")
+col5.metric("Non-White", "92", "0")
+###############################################################################################
+st.markdown('---')
+
+st.subheader('Enrollment Demographics - %')
+
+options2 = st.multiselect(
+    'Include in chart:',
+    ['White %','Asian %', 'Latino %','African American %','Multi-racial %'],
+    default = ['White %','Asian %', 'Latino %','African American %','Multi-racial %']
+)
+# Show total, white, non-white, individual groups over time
+fig2 = px.bar(df, x='Year', y=options2,
+             title="Enrollment by Demographic - %",
+             labels={
+                 "value": "Enrollment",
+                 "Year": "School Year",
+                 "variable": "Race/Ethnicity"
+             }, height=600, width=900)
+st.plotly_chart(fig2)
 # race/ethnicity by program
 ###############################################################################################
-col1, col2, col3, col4 = st.columns(4)
-col1.metric("Asian", "70 °F", "1.2 °F")
-col2.metric("Latino", "9 mph", "-8%")
-col3.metric("African American", "86%", "4%")
-col4.metric("Non-White", "86%", "4%")
-###############################################################################################
+st.subheader('2021-2022')
 
+col1, col2, col3, col4, col5= st.columns(5)
+col1.metric("Asian", "11.2 %", "-2.3 %")
+col2.metric("African American", "2.53 %", "-0.48 %")
+col3.metric("Latino", "9.24 %", "-1.87 %")
+col4.metric("Multi-racial", "2.8 %", "2.8 %")
+col5.metric("Non-White", "25.77 %", "-1.83 %")
+###############################################################################################
+st.markdown('---')
 st.header('Area Demographics')
 # view neighborhood, city by income, different groups, stats
 

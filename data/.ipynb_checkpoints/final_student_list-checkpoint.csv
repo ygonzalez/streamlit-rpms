@@ -1,48 +1,48 @@
 First Name,Last Name,ethnicity,Current Grade
 Declan,Bechard,White,Toddler
-JonMateo,Carrigan,Multi-racial,Toddler
+JonMateo,Carrigan,,Toddler
 Nelson,Ciardi,Asian,Toddler
 Max,Elkington,White,Toddler
 Eve,Gaster,Prefer Not To Answer,Toddler
-Milo,Gilmore,White,Toddler
-Camille,Gourio,White,Toddler
+Milo,Gilmore,,Toddler
+Camille,Gourio,,Toddler
 Grace,Harris,White,Toddler
 Luca,Heller,White,Toddler
-Reid,Krapf,White,Toddler
+Reid,Krapf,,Toddler
 Ethan,Kuipers,White,Toddler
-Marshall,Lepine,Hispanic or Latino,Toddler
+Marshall,Lepine,,Toddler
 Frances,Malone,White,Toddler
 Alessandra,Matthews,Prefer Not To Answer,Toddler
 Benjamin,Sarich,White,Toddler
 Lena,Schrey,White,Toddler
-Lennon,Shabaz-Alstott,Multi-racial,Toddler
-Ezra,Sims-Harsanyi,Multi-racial,Toddler
-Emerson,Webb,White,Toddler
-Lucas,Adajar,Multi-racial,Children's House 3YO
+Lennon,Shabaz-Alstott,,Toddler
+Ezra,Sims-Harsanyi,,Toddler
+Emerson,Webb,,Toddler
+Lucas,Adajar,,Children's House 3YO
 Sadie,Bernsohn,White,Children's House 3YO
 Stella,Breit,Asian,Children's House 3YO
 John,Connelly,White,Children's House 3YO
-Josephine,Eveland,Hispanic or Latino,Children's House 3YO
-Joseph,Feuser,White,Children's House 3YO
-Margot,Gourio,White,Children's House 3YO
-Emery Rose,Halligan,White,Children's House 3YO
+Josephine,Eveland,,Children's House 3YO
+Joseph,Feuser,,Children's House 3YO
+Margot,Gourio,,Children's House 3YO
+Emery Rose,Halligan,,Children's House 3YO
 Ari,Hertsberg,White,Children's House 3YO
 Reed,Hochman,White,Children's House 3YO
 Naya,Hoernecke-Ferraro,White,Children's House 3YO
 Madeline,Hooper,White,Children's House 3YO
-Mae,Hyland,White,Children's House 3YO
+Mae,Hyland,,Children's House 3YO
 Calvin,Jacobson,White,Children's House 3YO
 Fernanda,Lopez,Hispanic or Latino,Children's House 3YO
 Sloane,Mack,Asian,Children's House 3YO
-Yahna,McIntosh-Fujiyoshi,Asian,Children's House 3YO
+Yahna,McIntosh-Fujiyoshi,,Children's House 3YO
 Aaron,Means,White,Children's House 3YO
 Monroe,Merced,White,Children's House 3YO
 Henry,Philip,White,Children's House 3YO
-Margaux,Rabany,White,Children's House 3YO
-Kristopher,Ripke,White,Children's House 3YO
-Ashmi,Shah,Multi-racial,Children's House 3YO
+Margaux,Rabany,,Children's House 3YO
+Kristopher,Ripke,,Children's House 3YO
+Ashmi,Shah,,Children's House 3YO
 Odette,Smith,White,Children's House 3YO
-Kiran,Srivastava,Multi-racial,Children's House 3YO
+Kiran,Srivastava,,Children's House 3YO
 Olivia,Toben,White,Children's House 3YO
 Lorenzo,Tucker,White,Children's House 3YO
 Miguel,Villalpando,Hispanic or Latino,Children's House 3YO
@@ -66,13 +66,13 @@ Lena,Juran,Asian,Children's House 4YO
 Finn,Krapf,White,Children's House 4YO
 Leo,LiManni,White,Children's House 4YO
 Oliver,Lund,White,Children's House 4YO
-Vera,Martin Panteva,White,Children's House 4YO
+Vera,Martin Panteva,,Children's House 4YO
 Hayden,McFarren,White,Children's House 4YO
 Maisie,McGrath,White,Children's House 4YO
-Samuel,Mroczkowski,White,Children's House 4YO
+Samuel,Mroczkowski,,Children's House 4YO
 Gabriela,Pibiri,White,Children's House 4YO
 Dilan,Potdar,Asian,Children's House 4YO
-Annabelle,Ranum,White,Children's House 4YO
+Annabelle,Ranum,,Children's House 4YO
 Aria,Razavinejad,Asian,Children's House 4YO
 Catherine,Robinson,White,Children's House 4YO
 Lola,Sledge,White,Children's House 4YO
@@ -84,7 +84,7 @@ Kaylee,Weiss-Halliwell,White,Children's House 4YO
 Carson,Baum,White,Kindergarten
 Peter,Birzgalis,White,Kindergarten
 Luca,Blair,White,Kindergarten
-Lucas,Breit,Asian,Kindergarten
+Lucas,Breit,,Kindergarten
 Antonia,Camastro,Hispanic or Latino,Kindergarten
 Tailor,Captain,White,Kindergarten
 Ava,Connelly,White,Kindergarten
@@ -106,8 +106,8 @@ Diarmuid,McKeown,White,Kindergarten
 Molly,McNamara,White,Kindergarten
 Harrison,Merced,White,Kindergarten
 James,Mix,White,Kindergarten
-Simeon,Negussie,Multi-racial,Kindergarten
-Kiva,O'Connor,Multi-racial,Kindergarten
+Simeon,Negussie,,Kindergarten
+Kiva,O'Connor,,Kindergarten
 Sayo,Okawa,Asian,Kindergarten
 Lola,Palomino,Hispanic or Latino,Kindergarten
 Henry,Posner,White,Kindergarten
@@ -115,9 +115,9 @@ Nora,Reid,White,Kindergarten
 Evan,Ross,Asian,Kindergarten
 Eleanor,Rupert,White,Kindergarten
 Harper,Skowron,White,Kindergarten
-Zoe,Sobol,Multi-racial,Kindergarten
-Una,Thomas,Asian,Kindergarten
-Aine,Tobin,White,Kindergarten
+Zoe,Sobol,,Kindergarten
+Una,Thomas,,Kindergarten
+Aine,Tobin,,Kindergarten
 Maeve,West,White,Kindergarten
 Leonardo,Whittmon-Navilio,Black or African American,Kindergarten
 Ethan,Adams,Hispanic or Latino,First
@@ -130,7 +130,7 @@ Corbin,Dziekanowski,White,First
 Isak,Fatall,White,First
 Madeline,Feuser,White,First
 Lily,Goldin,White,First
-Rylan,Hafiz,Asian,First
+Rylan,Hafiz,,First
 Cecilia,Hilliker-Flick,White,First
 Charles,Hooper,White,First
 Jackson,Hortin,White,First
@@ -152,7 +152,7 @@ Robert,Smith,White,First
 Adam,Straus,Asian,First
 Abigail,Swanberg,White,First
 Danica,Todorovic,White,First
-Lieuwe,Vander Meer,White,First
+Lieuwe,Vander Meer,,First
 Walker,Weber,White,First
 Asa,Wolfson,White,First
 Gus,Abrahams,White,Second
@@ -164,24 +164,24 @@ Aleksandar,Dacic,White,Second
 David,Delt-Stanley,Black or African American,Second
 Madeleine,Douglas,White,Second
 Owen,Elkington,White,Second
-Sidman,Fatall,White,Second
+Sidman,Fatall,,Second
 Elliott,Ginsburg,White,Second
 Clara,Greene,White,Second
 Rafael,Hassan,Hispanic or Latino,Second
-Annie,Hopmayer,White,Second
+Annie,Hopmayer,,Second
 Owen,Jacobson,White,Second
 Oliver,James,White,Second
 Zarah,Javed,Asian,Second
 Theodore,Krane,White,Second
 Novak,Krunich,White,Second
 Remy,Levine,Asian,Second
-Simone,Levy,White,Second
+Simone,Levy,,Second
 Winston,Lund,White,Second
-Margie,McCurdy,Asian,Second
+Margie,McCurdy,,Second
 Colton,Means,White,Second
 Jackson,Merced,White,Second
 Ned,Messer,White,Second
-Lincoln,Negussie,Multi-racial,Second
+Lincoln,Negussie,,Second
 Serena,Palladino,White,Second
 Matthew,Robinson,Hispanic or Latino,Second
 Axel,Sibley,White,Second
@@ -245,7 +245,7 @@ Vincent,Muehle,White,Fourth
 Flynn,Myers,White,Fourth
 Elan,Pikkel,Asian,Fourth
 Sofia,Polachek,Asian,Fourth
-Emmanuel,Restrepo,Hispanic or Latino,Fourth
+Emmanuel,Restrepo,,Fourth
 Alexander,Robinson,Hispanic or Latino,Fourth
 Samuel,Scholl,White,Fourth
 Lincoln,Trussell,White,Fourth
@@ -267,7 +267,7 @@ Liam,Flynn,Hispanic or Latino,Fifth
 Ethan,Frampton,White,Fifth
 Juliet,Gerogiannis,White,Fifth
 Sophie,Gomez-Devia,Hispanic or Latino,Fifth
-Oliver,Jenta,Asian,Fifth
+Oliver,Jenta,,Fifth
 Alexander,Johnson,White,Fifth
 Avery,Johnson,White,Fifth
 Madison,Lakomy,White,Fifth
@@ -331,7 +331,7 @@ Liam,Schorr,White,Seventh
 Landon,Scott,White,Seventh
 Eamonn,Shingler,White,Seventh
 Owais,Taheri,Prefer Not To Answer,Seventh
-Paytrus,Van Houtum,White,Seventh
+Paytrus,Van Houtum,,Seventh
 Emmett,Walter,White,Seventh
 Eden,Weiss,White,Seventh
 Ava,Wise,White,Seventh
