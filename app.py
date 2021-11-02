@@ -65,16 +65,16 @@ folium.TileLayer('CartoDB positron',name="Light Map",control=False).add_to(mymap
 area_stats = pd.read_csv('data/RPMSZips.csv', dtype={'zip':str})
 chi_zips = pd.merge(chi_zips, area_stats, how='left', on='zip')
 
-mymap.choropleth(
+folium.Choropleth(
  geo_data=chi_zips,
  name='Choropleth',
  data=chi_zips,
  columns=['zip','latino_pop'],
  key_on="feature.properties.zip",
 #  fill_color='YlGnBu',
-#  fill_opacity=1,
- line_opacity=0.2,
+    line_weight=1,
  legend_name='Latino population in %',
  smooth_factor=0
-)
+).add_to(mymap)
+
 folium_static(mymap)
