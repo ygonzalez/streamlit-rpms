@@ -9,6 +9,7 @@ import folium
 import branca.colormap as cm
 
 ###############################################################################################
+st.title('RPMS Enrollment Statistics')
 
 def load_lottieurl(url: str):
     r = requests.get(url)
@@ -18,8 +19,6 @@ def load_lottieurl(url: str):
 
 lottie_book = load_lottieurl('https://assets9.lottiefiles.com/temp/lf20_aKAfIn.json')
 st_lottie(lottie_book, height=200)
-
-st.title('RPMS Enrollment Statistics')
 
 # status_text = st.sidebar.empty()
 
@@ -62,19 +61,38 @@ mymap = folium.Map(location=[y_map, x_map], zoom_start=10,tiles=None)
 folium.TileLayer('CartoDB positron',name="Light Map",control=False).add_to(mymap)
 # folium_static(mymap)
 
-area_stats = pd.read_csv('data/RPMSZips.csv', dtype={'zip':str})
+# area_stats = pd.read_csv('data/RPMSZips.csv', dtype={'zip':str})
+area_stats = pd.read_csv('data/zip_demos.csv', dtype={'zip':str})
 chi_zips = pd.merge(chi_zips, area_stats, how='left', on='zip')
 
-folium.Choropleth(
+demos = ['White', "Black", "Latino", "Asian"]
+
+demo = st.selectbox(
+   'Select demographic',
+   demos)
+
+st.subheader(f'{demo} population in %')
+
+choropleth = folium.Choropleth(
  geo_data=chi_zips,
  name='Choropleth',
  data=chi_zips,
- columns=['zip','latino_pop'],
+ columns=['zip',demo],
  key_on="feature.properties.zip",
 #  fill_color='YlGnBu',
     line_weight=1,
- legend_name='Latino population in %',
+ legend_name=f'{demo} population in %',
  smooth_factor=0
 ).add_to(mymap)
+
+
+# add labels indicating the name of the community
+style_function = "font-size: 15px; font-weight: bold"
+choropleth.geojson.add_child(
+    folium.features.GeoJsonTooltip(['zip'], style=style_function, labels=False))
+
+# create a layer control
+folium.LayerControl().add_to(mymap)
+
 
 folium_static(mymap)
