@@ -22,9 +22,10 @@ lottie_book = load_lottieurl('https://assets9.lottiefiles.com/temp/lf20_aKAfIn.j
 st_lottie(lottie_book, height=200)
 
 # status_text = st.sidebar.empty()
-password_guess = st.text_input('What is the Password?')
-if password_guess != st.secrets["password"]:
-    st.stop()
+st.write(st.secrets["password"])
+# password_guess = st.text_input('What is the Password?')
+# if password_guess != st.secrets["password"]:
+#     st.stop()
 
 ###############################################################################################
 # st.header('Enrollment Demograpics')
