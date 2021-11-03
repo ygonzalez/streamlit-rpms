@@ -111,9 +111,9 @@ st.header('Area Demographics')
 # reading in the polygon shapefile
 chi_zips = gpd.read_file(r"Boundaries - ZIP Codes/geo_export_a9707f61-f834-4e7b-b8a5-0f0ff4c8412d.shp")
 x_map=chi_zips.centroid.x.mean()
-y_map=chi_zips.centroid.y.mean()+.01
+y_map=chi_zips.centroid.y.mean()-.02
 
-mymap = folium.Map(location=[y_map, x_map], zoom_start=10,tiles=None)
+mymap = folium.Map(location=[y_map, x_map], zoom_start=11,tiles=None)
 folium.TileLayer('CartoDB positron',name="Light Map",control=False).add_to(mymap)
 # folium_static(mymap)
 
@@ -165,7 +165,7 @@ choropleth.geojson.add_child(
 folium.LayerControl().add_to(mymap)
 
 
-folium_static(mymap)
+folium_static(mymap, width=750, height=850)
 
 # Summary Data for 60640
 
