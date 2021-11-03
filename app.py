@@ -57,7 +57,7 @@ col5.metric("Non-White", "92", "0")
 ###############################################################################################
 st.markdown('---')
 
-st.subheader('Enrollment Demographics - %')
+st.subheader('Enrollment Demographics - Percent')
 
 options2 = st.multiselect(
     'Include in chart:',
@@ -65,6 +65,8 @@ options2 = st.multiselect(
     default = ['White %','Asian %', 'Latino %','African American %','Multi-racial %']
 )
 # Show total, white, non-white, individual groups over time
+
+
 fig2 = px.bar(df, x='Year', y=options2,
              title="Enrollment by Demographic - %",
              labels={
@@ -84,6 +86,24 @@ col3.metric("Latino", "9.24 %", "-1.87 %")
 col4.metric("Multi-racial", "2.8 %", "2.8 %")
 col5.metric("Non-White", "25.77 %", "-1.83 %")
 ###############################################################################################
+st.markdown('---')
+st.subheader('Enrollment Demographics by Program')
+
+df = pd.read_csv('data/final_student_list.csv')
+# Show total, white, non-white, individual groups over time
+
+fig3 = px.histogram(df, x='Current Grade', color='ethnicity',
+             title="Enrollment by Program",
+             # labels={
+             #     "value": "Enrollment",
+             #     "Year": "School Year",
+             #     "variable": "Race/Ethnicity"
+             # }
+               height=600, width=900)
+st.plotly_chart(fig3)
+
+###############################################################################################
+
 st.markdown('---')
 st.header('Area Demographics')
 # view neighborhood, city by income, different groups, stats
