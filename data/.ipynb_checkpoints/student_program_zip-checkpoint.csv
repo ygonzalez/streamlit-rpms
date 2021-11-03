@@ -1,0 +1,364 @@
+Person ID,Full Name,Current Grade,Zip Code,Ethnicity,Enrollment Status,Roles
+100314,"Bechard, Declan",Toddler,60640,Caucasian,EN: Newly Enrolled,"Student (T), Prg Stud"
+100318,"Carrigan, JonMateo",Toddler,60660,Multi-racial,EN: Newly Enrolled,"Student (T), Prg Stud"
+100319,"Ciardi, Nelson",Toddler,60625,Asian,EN: Newly Enrolled,"Student (T), Prg Stud"
+100320,"Elkington, Max",Toddler,60640,Caucasian,EN: Newly Enrolled,"Student (T), Prg Stud"
+100354,"Gaster, Eve",Toddler,60626,<None Specified>,EN: Newly Enrolled,Student (T)
+100342,"Gilmore, Milo",Toddler,60640,<None Specified>,EN: Newly Enrolled,"Student (T), Prg Stud"
+100340,"Gourio, Camille",Toddler,60640,<None Specified>,EN: Newly Enrolled,Student (T)
+100322,"Harris, Grace",Toddler,60618,Caucasian,EN: Newly Enrolled,Student (T)
+100323,"Heller, Luca",Toddler,60660,Caucasian,EN: Newly Enrolled,Student (T)
+100343,"Krapf, Reid",Toddler,60640,<None Specified>,EN: Newly Enrolled,"Student (T), Prg Stud"
+100324,"Kuipers, Ethan",Toddler,60640,Caucasian,EN: Newly Enrolled,"Student (T), Prg Stud"
+100325,"Lepine, Marshall",Toddler,60435,Multi-racial,EN: Newly Enrolled,"Student (T), csf, Child of Faculty"
+100298,"Malone, Frances",Toddler,60640,Caucasian,EN: Newly Enrolled,Student (T)
+100359,"Matthews, Alessandra",Toddler,60660,<None Specified>,EN: Newly Enrolled,Student (T)
+100360,"Sarich, Benjamin",Toddler,60640,<None Specified>,EN: Newly Enrolled,"Student (T), Prg Stud"
+100332,"Schrey, Lena",Toddler,60640,Caucasian,EN: Newly Enrolled,"Student (T), Prg Stud"
+100356,"Shabaz-Alstott, Lennon",Toddler,60640,<None Specified>,EN: Newly Enrolled,Student (T)
+100334,"Sims-Harsanyi, Ezra",Toddler,60626,Multi-racial,EN: Newly Enrolled,"Student (T), Prg Stud"
+100304,"Webb, Emerson",Toddler,60640,<None Specified>,EN: Newly Enrolled,"Student (T), Prg Stud"
+,"Adajar, Lucas",Children's House 3YO,60640,,,Student (CH3)
+,"Bernsohn, Sadie",Children's House 3YO,60625,,,"Student (CH3), Prg Stud"
+,"Breit, Stella",Children's House 3YO,60640,,,"Student (CH3), Prg Stud"
+,"Connelly, John",Children's House 3YO,60618,,,"Student (CH3), Prg Stud"
+,"Eveland, Josephine",Children's House 3YO,60625,,,"Student (CH3), Prg Stud"
+,"Feuser, Joseph",Children's House 3YO,60640,,,Student (CH3)
+,"Gourio, Margot",Children's House 3YO,60640,,,"Student (CH3), Prg Stud"
+,"Halligan, Emery Rose",Children's House 3YO,60640,,,Student (CH3)
+,"Hertsberg, Ari",Children's House 3YO,60625,,,"Student (CH3), Prg Stud"
+,"Hochman, Reed",Children's House 3YO,60640,,,Student (CH3)
+,"Hoernecke-Ferraro, Naya",Children's House 3YO,60660,,,"Student (CH3), Prg Stud"
+,"Hooper, Madeline",Children's House 3YO,60640,,,"Student (CH3), Prg Stud"
+,"Hyland, Mae",Children's House 3YO,60640,,,"Student (CH3), Prg Stud"
+,"Jacobson, Calvin",Children's House 3YO,60640,,,Student (CH3)
+,"Lopez, Fernanda",Children's House 3YO,60645,,,Student (CH3)
+,"Mack, Sloane",Children's House 3YO,60618,,,"Student (CH3), Prg Stud"
+,"McIntosh-Fujiyoshi, Yahna",Children's House 3YO,60659,,,"Student (CH3), Prg Stud"
+,"Means, Aaron",Children's House 3YO,60611,,,Student (CH3)
+,"Merced, Monroe",Children's House 3YO,60656,,,"Student (CH3), Prg Stud, csf, Child of Faculty"
+,"Philip, Henry",Children's House 3YO,60640,,,"Student (CH3), Prg Stud"
+,"Rabany, Margaux",Children's House 3YO,60640,,,Student (CH3)
+,"Ripke, Kristopher",Children's House 3YO,60706,,,"Student (CH3), Prg Stud, csf, rsf, Child of Faculty"
+,"Shah, Ashmi",Children's House 3YO,60657,,,"Student (CH3), Prg Stud"
+,"Smith, Odette",Children's House 3YO,60641,,,"Student (CH3), Prg Stud, csf, Child of Faculty"
+,"Srivastava, Kiran",Children's House 3YO,60641,,,Student (CH3)
+,"Toben, Olivia",Children's House 3YO,60660,,,"Student (CH3), Prg Stud"
+,"Tucker, Lorenzo",Children's House 3YO,60062,,,"Student (CH3), Prg Stud, csf, Child of Faculty"
+,"Villalpando, Miguel",Children's House 3YO,60640,,,"Student (CH3), Prg Stud"
+,"Wasserman, Henry",Children's House 3YO,60640,,,"Student (CH3), Prg Stud"
+,"Younger, Alec",Children's House 3YO,60625,,,Student (CH3)
+,"Bray, Emerson",Children's House 4YO,60618,,,Student (CH4)
+,"Ciardi, Magnolia",Children's House 4YO,60625,,,"Student (CH4), Prg Stud"
+,"Cruz, Ryan",Children's House 4YO,60646,,,"Student (CH4), Prg Stud"
+,"Decoteau-Clarno, Felix",Children's House 4YO,60625,,,Student (CH4)
+,"Emerson, Jaiman",Children's House 4YO,60640,,,"Student (CH4), Prg Stud"
+,"Fischenich, Amelia",Children's House 4YO,60660,,,"Student (CH4), Prg Stud"
+,"Gilmore, Ellie",Children's House 4YO,60640,,,"Student (CH4), Prg Stud"
+,"Ginsburg, Barrett",Children's House 4YO,60640,,,"Student (CH4), Prg Stud"
+,"Glover, Samuel",Children's House 4YO,60625,,,"Student (CH4), Prg Stud"
+,"Gonzalez, Koan",Children's House 4YO,60626,,,"Student (CH4), Prg Stud"
+,"Greene, Grant",Children's House 4YO,60625,,,"Student (CH4), Prg Stud"
+,"Hopmayer, Simon",Children's House 4YO,60625,,,"Student (CH4), Prg Stud"
+,"Isinger, Logan",Children's House 4YO,60640,,,Student (CH4)
+,"James, Sadie",Children's House 4YO,60625,,,"Student (CH4), Prg Stud"
+,"Juran, Lena",Children's House 4YO,60640,,,Student (CH4)
+,"Krapf, Finn",Children's House 4YO,60640,,,"Student (CH4), Prg Stud"
+,"LiManni, Leo",Children's House 4YO,60657,,,Student (CH4)
+,"Lund, Oliver",Children's House 4YO,60622,,,"Student (CH4), Prg Stud, csf, Child of Faculty"
+,"Martin Panteva, Vera",Children's House 4YO,60640,,,"Student (CH4), Prg Stud"
+,"McFarren, Hayden",Children's House 4YO,60640,,,Student (CH4)
+,"McGrath, Maisie",Children's House 4YO,60625,,,"Student (CH4), Prg Stud"
+,"Mroczkowski, Samuel",Children's House 4YO,60640,,,"Student (CH4), Prg Stud"
+,"Pibiri, Gabriela",Children's House 4YO,60640,,,"Student (CH4), Prg Stud"
+,"Potdar, Dilan",Children's House 4YO,60640,,,Student (CH4)
+,"Ranum, Annabelle",Children's House 4YO,60640,,,"Student (CH4), Prg Stud"
+,"Razavinejad, Aria",Children's House 4YO,60618,,,"Student (CH4), Prg Stud"
+,"Robinson, Catherine",Children's House 4YO,60660,,,"Student (CH4), Prg Stud"
+,"Sledge, Lola",Children's House 4YO,60640,,,"Student (CH4), Prg Stud"
+,"Stephens, Georgine",Children's House 4YO,60613,,,"Student (CH4), Prg Stud"
+,"Swaminathan, Pavanaj",Children's House 4YO,60613,,,"Student (CH4), Prg Stud"
+,"Toledo, Bradley",Children's House 4YO,60091,,,"Student (CH4), Prg Stud, csf, Child of Faculty"
+,"Webb, Brooks",Children's House 4YO,60640,,,"Student (CH4), Prg Stud"
+,"Weiss-Halliwell, Kaylee",Children's House 4YO,60640,,,"Student (CH4), Prg Stud"
+,"Baum, Carson",Kindergarten,60660,,,Student (K)
+,"Birzgalis, Peter",Kindergarten,60640,,,Student (K)
+,"Blair, Luca",Kindergarten,60201,,,"Student (K), Prg Stud, csf, Child of Staff"
+,"Breit, Lucas",Kindergarten,60640,,,"Student (K), Prg Stud"
+,"Camastro, Antonia",Kindergarten,60625,,,"Student (K), Prg Stud, csf, Child of Faculty"
+,"Captain, Tailor",Kindergarten,60640,,,"Student (K), Prg Stud"
+,"Connelly, Ava",Kindergarten,60618,,,Student (K)
+,"Dana, Ruben",Kindergarten,60625,,,Student (K)
+,"Evans, Evangeline",Kindergarten,60660,,,Student (K)
+,"Farrell, Hugo",Kindergarten,60640,,,Student (K)
+,"Fitzgerald, George",Kindergarten,60640,,,"Student (K), Prg Stud"
+,"Gerchenson, Sally",Kindergarten,60618,,,Student (K)
+,"Harden, Elise",Kindergarten,60646,,,"Student (K), Prg Stud"
+,"Herbert, Wesley",Kindergarten,60625,,,Student (K)
+,"Hochman, Rose",Kindergarten,60640,,,Student (K)
+,"Hyland, Jonah",Kindergarten,60640,,,"Student (K), Prg Stud"
+,"Jacobson, Noa",Kindergarten,60640,,,Student (K)
+,"Kelley, June",Kindergarten,60640,,,"Student (K), Prg Stud, csf, Child of Faculty"
+,"Koester, Claire",Kindergarten,60640,,,"Student (K), Prg Stud"
+,"Koziol, Fern",Kindergarten,60131,,,"Student (K), csf, Child of Faculty"
+,"Lechtenberg, Flynn",Kindergarten,60613,,,Student (K)
+,"McKeown, Diarmuid",Kindergarten,60660,,,Student (K)
+,"McNamara, Molly",Kindergarten,60625,,,Student (K)
+,"Merced, Harrison",Kindergarten,60656,,,"Student (K), Prg Stud, csf, Child of Faculty"
+,"Mix, James",Kindergarten,60640,,,Student (K)
+,"Negussie, Simeon",Kindergarten,60613,,,Student (K)
+,"O'Connor, Kiva",Kindergarten,60640,,,Student (K)
+,"Okawa, Sayo",Kindergarten,60614,,,Student (K)
+,"Palomino, Lola",Kindergarten,60640,,,"Student (K), Prg Stud"
+,"Posner, Henry",Kindergarten,60625,,,Student (K)
+,"Reid, Nora",Kindergarten,60625,,,Student (K)
+,"Ross, Evan",Kindergarten,60647,,,Student (K)
+,"Rupert, Eleanor",Kindergarten,60640,,,"Student (K), Prg Stud"
+,"Skowron, Harper",Kindergarten,60614,,,Student (K)
+,"Sobol, Zoe",Kindergarten,60640,,,Student (K)
+,"Thomas, Una",Kindergarten,60630,,,Student (K)
+,"Tobin, Aine",Kindergarten,60625,,,Student (K)
+,"West, Maeve",Kindergarten,60640,,,"Student (K), Prg Stud"
+,"Whittmon-Navilio, Leonardo",Kindergarten,60712,,,"Student (K), Prg Stud"
+,,,,,,
+,"Adams, Ethan",First,60640,,,"Student (1), Prg Stud"
+,"Arnold-Stahl, Cecilia",First,60202,,,"Student (1), Prg Stud, csf, Child of Faculty"
+,"Ashmore, Hendrick",First,60625,,,Student (1)
+,"Beer, Lila",First,60640,,,Student (1)
+,"Bray, Quinn",First,60618,,,Student (1)
+,"Durkin, Gavin",First,60640,,,Student (1)
+,"Dziekanowski, Corbin",First,60660,,,Student (1)
+,"Fatall, Isak",First,60625,,,Student (1)
+,"Feuser, Madeline",First,60640,,,Student (1)
+,"Goldin, Lily",First,60618,,,"Student (1), Prg Stud"
+,"Hafiz, Rylan",First,60625,,,"Student (1), Prg Stud"
+,"Hilliker-Flick, Cecilia",First,60614,,,"Student (1), Prg Stud"
+,"Hooper, Charles",First,60640,,,Student (1)
+,"Hortin, Jackson",First,60640,,,"Student (1), Prg Stud"
+,"Johnson, Elizabeth",First,60640,,,Student (1)
+,"Kuechler, Milo",First,60625,,,"Student (1), Prg Stud"
+,"Kuechler, Silas",First,60625,,,"Student (1), Prg Stud"
+,"Marquez, Pierre",First,60640,,,Student (1)
+,"Mathews, Maverick",First,60640,,,"Student (1), Prg Stud, csf, Child of Faculty"
+,"McDaniel, Anna",First,60640,,,Student (1)
+,"Moore, August",First,60640,,,Student (1)
+,"Okawa, Shunya",First,60614,,,Student (1)
+,"Ordonez, Nicholas",First,60626,,,"Student (1), Prg Stud, csf, Child of Faculty"
+,"Potdar, Neel",First,60640,,,Student (1)
+,"Restrepo, Lucia",First,60640,,,Student (1)
+,"Roberts, Sierra",First,60613,,,Student (1)
+,"Shirrell, Eleanor",First,60625,,,Student (1)
+,"Smith, Frances",First,60659,,,"Student (1), Prg Stud, csf, Child of Faculty"
+,"Smith, Robert",First,60641,,,"Student (1), Prg Stud, csf, Child of Faculty"
+,"Straus, Adam",First,60625,,,Student (1)
+,"Swanberg, Abigail",First,60625,,,Student (1)
+,"Todorovic, Danica",First,60645,,,Student (1)
+,"Vander Meer, Lieuwe",First,60640,,,"Student (1), Prg Stud"
+,"Weber, Walker",First,60660,,,Student (1)
+,"Wolfson, Asa",First,60640,,,Student (1)
+,"Abrahams, Gus",Second,60626,,,"Student (2), Prg Stud, csf, Child of Faculty"
+,"Allen-Exoo, Ezra",Second,60625,,,Student (2)
+,"Banks, Benicio Gomes",Second,60202,,,"Student (2), Prg Stud, csf, Child of Faculty"
+,"Bruehl, Fox",Second,60640,,,Student (2)
+,"Cadava, Oscar",Second,60660,,,"Student (2), Prg Stud"
+,"Dacic, Aleksandar",Second,60625,,,Student (2)
+,"Delt-Stanley, David",Second,60201,,,"Student (2), Prg Stud"
+,"Douglas, Madeleine",Second,60640,,,Student (2)
+,"Elkington, Owen",Second,60640,,,"Student (2), Prg Stud"
+,"Fatall, Sidman",Second,60625,,,Student (2)
+,"Ginsburg, Elliott",Second,60640,,,Student (2)
+,"Greene, Clara",Second,60625,,,Student (2)
+,"Hassan, Rafael",Second,60625,,,"Student (2), Prg Stud"
+,"Hopmayer, Annie",Second,60625,,,"Student (2), Prg Stud"
+,"Jacobson, Owen",Second,60640,,,Student (2)
+,"James, Oliver",Second,60625,,,"Student (2), Prg Stud"
+,"Javed, Zarah",Second,60657,,,"Student (2), Prg Stud"
+,"Krane, Theodore",Second,60625,,,Student (2)
+,"Krunich, Novak",Second,60618,,,Student (2)
+,"Levine, Remy",Second,60660,,,Student (2)
+,"Levy, Simone",Second,60613,,,Student (2)
+,"Lund, Winston",Second,60622,,,"Student (2), Prg Stud, csf, Child of Faculty"
+,"McCurdy, Margie",Second,60657,,,Student (2)
+,"Means, Colton",Second,60611,,,Student (2)
+,"Merced, Jackson",Second,60656,,,"Student (2), Prg Stud, csf, Child of Faculty"
+,"Messer, Ned",Second,60625,,,Student (2)
+,"Negussie, Lincoln",Second,60613,,,Student (2)
+,"Palladino, Serena",Second,60660,,,Student (2)
+,"Robinson, Matthew",Second,60660,,,"Student (2), Prg Stud"
+,"Sibley, Axel",Second,60618,,,Student (2)
+,"Skowron, Kellen",Second,60614,,,Student (2)
+,"Starr, Aubrey",Second,60640,,,"Student (2), Prg Stud"
+,"Sterling, Iniko",Second,60640,,,"Student (2), Prg Stud"
+,"Swaminathan, Priya",Second,60613,,,Student (2)
+,"Wilson, Quentin",Second,60618,,,"Student (2), Prg Stud"
+,"Abramovitch, Reid",Third,60657,,,Student (3)
+,"Adams, Siena",Third,60640,,,Student (3)
+,"Captain, Caleb",Third,60640,,,"Student (3), Prg Stud"
+,"Chhay-Vickers, Dylan",Third,60625,,,"Student (3), Prg Stud"
+,"Emerson, Nicholas",Third,60640,,,"Student (3), Prg Stud"
+,"Farrell, George",Third,60640,,,Student (3)
+,"Fitzgerald, Lily",Third,60640,,,"Student (3), Prg Stud"
+,"Frampton, Tyler",Third,60618,,,Student (3)
+,"Gerchenson, Dean",Third,60618,,,Student (3)
+,"Green, Sonia",Third,60625,,,Student (3)
+,"Herbert, Josephine",Third,60625,,,Student (3)
+,"Jones, Madeline",Third,60640,,,Student (3)
+,"Kelley, Brennan",Third,60640,,,"Student (3), Prg Stud, csf, Child of Faculty"
+,"Koester, Everett",Third,60640,,,"Student (3), Prg Stud"
+,"Levy, Henry",Third,60613,,,"Student (3), Prg Stud"
+,"Lovesee, Avery",Third,60645,,,Student (3)
+,"MacIver, Sasha",Third,60640,,,"Student (3), Prg Stud"
+,"Mathews, Paisley",Third,60640,,,"Student (3), Prg Stud, csf, Child of Faculty"
+,"McDaniel, Samuel",Third,60640,,,Student (3)
+,"Meek, Alma",Third,60640,,,Student (3)
+,"Mix, Thomas",Third,60640,,,Student (3)
+,"Palomino, Enza",Third,60640,,,"Student (3), Prg Stud"
+,"Pezold-Minarik, Lois",Third,60625,,,Student (3)
+,"Reid, James",Third,60625,,,Student (3)
+,"Shah, Zia",Third,60613,,,Student (3)
+,"Smith, Eleanor",Third,60640,,,Student (3)
+,"Smith, Silas",Third,60659,,,"Student (3), Prg Stud, csf, Child of Faculty"
+,"Stewart-Brodsky, Lev",Third,60640,,,"Student (3), Prg Stud"
+,"Taylor-Roberts, Gwendolyn",Third,60618,,,Student (3)
+,"Tobin, Declan",Third,60625,,,Student (3)
+,"Weber, Jackson",Third,60660,,,Student (3)
+,"Adams, Zoe",Fourth,60640,,,"Student (4), Prg Stud"
+,"Blair, Arlo",Fourth,60201,,,"Student (4), Prg Stud, csf, Child of Staff"
+,"Camastro, Luciano",Fourth,60625,,,"Student (4), Prg Stud, csf, Child of Faculty"
+,"Carani, Marco",Fourth,60625,,,Student (4)
+,"Colburn-Kane, Eli",Fourth,60640,,,"Student (4), Prg Stud"
+,"Connolly, Reese",Fourth,60660,,,"Student (4), Prg Stud"
+,"Cruz, Evan",Fourth,60646,,,Student (4)
+,"Goudy, Van",Fourth,60625,,,Student (4)
+,"Grimm, Nicholas",Fourth,60640,,,Student (4)
+,"Isinger, Madeline",Fourth,60640,,,Student (4)
+,"Javed, Aydin",Fourth,60657,,,"Student (4), Prg Stud"
+,"Johnson, Roland",Fourth,60640,,,"Student (4), Prg Stud"
+,"Kabb, Talia",Fourth,60625,,,Student (4)
+,"Karras, Lila",Fourth,60618,,,Student (4)
+,"Karras, Zoe",Fourth,60618,,,Student (4)
+,"Kosyla, Lou",Fourth,60645,,,Student (4)
+,"Krane, Lillian",Fourth,60625,,,Student (4)
+,"McBoateng, Abby",Fourth,60613,,,"Student (4), Prg Stud"
+,"McFarren, Connor",Fourth,60640,,,Student (4)
+,"Morlock, Tessa",Fourth,60625,,,Student (4)
+,"Muehle, Vincent",Fourth,60646,,,Student (4)
+,"Myers, Flynn",Fourth,60640,,,Student (4)
+,"Pikkel, Elan",Fourth,60613,,,"Student (4), Prg Stud"
+,"Polachek, Sofia",Fourth,60613,,,Student (4)
+,"Restrepo, Emmanuel",Fourth,60640,,,Student (4)
+,"Robinson, Alexander",Fourth,60660,,,"Student (4), Prg Stud"
+,"Scholl, Samuel",Fourth,60618,,,Student (4)
+,"Trussell, Lincoln",Fourth,60640,,,Student (4)
+,"Walter, Oscar",Fourth,60625,,,"Student (4), Prg Stud, csf, Child of Faculty"
+,"Warnock, Emerson",Fourth,60645,,,Student (4)
+,"Zolner, Annabel",Fourth,60660,,,Student (4)
+,"Abramovitch, Benjamin",Fifth,60657,,,Student (5)
+,"Adams, Kayla",Fifth,60640,,,Student (5)
+,"Bryant, Luca",Fifth,60625,,,Student (5)
+,"Caicedo, Cayden",Fifth,60618,,,Student (5)
+,"Clavijo, Casimiro",Fifth,60201,,,"Student (5), csf, Child of Faculty"
+,"Crown, Eli",Fifth,60640,,,"Student (5), Prg Stud"
+,"Dacic, Teodora",Fifth,60625,,,Student (5)
+,"Dana, Timothy",Fifth,60625,,,Student (5)
+,"Daniel-Hunsicker, Jace",Fifth,60618,,,Student (5)
+,"Davenport, Beau",Fifth,60630,,,Student (5)
+,"Douglas, Norah",Fifth,60640,,,Student (5)
+,"Flynn, Liam",Fifth,60640,,,"Student (5), Prg Stud, csf, Child of Faculty"
+,"Frampton, Ethan",Fifth,60618,,,Student (5)
+,"Gerogiannis, Juliet",Fifth,60625,,,Student (5)
+,"Gomez-Devia, Sophie",Fifth,60640,,,"Student (5), Prg Stud"
+,"Jenta, Oliver",Fifth,60647,,,Student (5)
+,"Johnson, Alexander",Fifth,60640,,,Student (5)
+,"Johnson, Avery",Fifth,60640,,,Student (5)
+,"Lakomy, Madison",Fifth,60657,,,"Student (5), Prg Stud"
+,"Michael, Sophia",Fifth,60625,,,Student (5)
+,"Murphy, Emmett",Fifth,60625,,,Student (5)
+,"Palladino, Rocco",Fifth,60660,,,Student (5)
+,"Roberts, Isaac",Fifth,60613,,,Student (5)
+,"Rose, Willow",Fifth,60646,,,"Student (5), Prg Stud"
+,"Schieber, Nathaniel",Fifth,60640,,,"Student (5), Prg Stud"
+,"Smith, Margaret",Fifth,60640,,,Student (5)
+,"Taheri, Oswah",Fifth,60645,,,"Student (5), Prg Stud"
+,"Tobin, Fiona",Fifth,60625,,,Student (5)
+,"Wilson, Benjamin",Fifth,60614,,,Student (5)
+,"Wilson, Rebecca",Fifth,60618,,,"Student (5), Prg Stud"
+,"Allen-Exoo, Ada",Sixth,60625,,,Student (6)
+,"Arden, Lily",Sixth,60625,,,"Student (6), Prg Stud"
+,"Berkson, Ian",Sixth,60625,,,Student (6)
+,"Brier, Nate",Sixth,60625,,,"Student (6), Prg Stud"
+,"Cano, Max",Sixth,60640,,,Student (6)
+,"Carani, Sofia",Sixth,60625,,,Student (6)
+,"Carroll, Rosemary",Sixth,60660,,,Student (6)
+,"Connolly, Logan",Sixth,60660,,,"Student (6), Prg Stud"
+,"Delaplane, Cayenne",Sixth,60640,,,Student (6)
+,"Desai, Laila",Sixth,60646,,,Student (6)
+,"Ginther, Frankie",Sixth,60625,,,Student (6)
+,"Herbert, Nora",Sixth,60625,,,Student (6)
+,"Horowitz, Asher",Sixth,60625,,,Student (6)
+,"Kambara, Anderson",Sixth,60625,,,"Student (6), Prg Stud"
+,"Karras, Elias",Sixth,60618,,,Student (6)
+,"Michelson, Avery",Sixth,60625,,,Student (6)
+,"Middendorf, Linus",Sixth,60625,,,Student (6)
+,"Moore, Harold",Sixth,60640,,,Student (6)
+,"Nimmo, Lucy",Sixth,60625,,,Student (6)
+,"Schrade, Henrik",Sixth,60611,,,Student (6)
+,"Schultz, Coleman",Sixth,60640,,,Student (6)
+,"Taylor-Roberts, Crosby",Sixth,60618,,,Student (6)
+,,,,,,
+,"Anderson, Sabina",Seventh,60625,,,Student (7)
+,"Bryant, Frederik",Seventh,60625,,,Student (7)
+,"Callahan, Julian",Seventh,60647,,,Student (7)
+,"Cohen, Isaac",Seventh,60640,,,Student (7)
+,"Dana, Nella",Seventh,60625,,,Student (7)
+,"Davenport, Luther",Seventh,60630,,,Student (7)
+,"Dimas, Colt",Seventh,60613,,,Student (7)
+,"Dunaway, Christian",Seventh,60660,,,Student (7)
+,"Dziekanowski, Mason",Seventh,60660,,,Student (7)
+,"Foley, Rowan",Seventh,60625,,,Student (7)
+,"Fournier, Daniel",Seventh,60625,,,Student (7)
+,"Fuller, Violet",Seventh,60618,,,Student (7)
+,"Goudy, Oakley",Seventh,60625,,,Student (7)
+,"Hoesley, Audrey",Seventh,60613,,,Student (7)
+,"Howard, Dhara",Seventh,60625,,,Student (7)
+,"Kelley, Vivian",Seventh,60640,,,"Student (7), Prg Stud, csf, Child of Faculty"
+,"Koziol, Milo",Seventh,60131,,,"Student (7), csf, Child of Faculty"
+,"Lopez, Jordi",Seventh,60640,,,Student (7)
+,"Mazursky, Lucas",Seventh,60625,,,Student (7)
+,"McCurdy, Lucia",Seventh,60657,,,Student (7)
+,"Morlock, Emily",Seventh,60625,,,Student (7)
+,"Robinson, John",Seventh,60660,,,"Student (7), Prg Stud"
+,"Rovner, Cecelia",Seventh,60618,,,Student (7)
+,"Schorr, Liam",Seventh,60640,,,Student (7)
+,"Scott, Landon",Seventh,60625,,,"Student (7), Prg Stud"
+,"Shingler, Eamonn",Seventh,60640,,,Student (7)
+,"Taheri, Owais",Seventh,60645,,,"Student (7), Prg Stud"
+,"Van Houtum, Paytrus",Seventh,60640,,,"Student (7), csf, Child of Faculty"
+,"Walter, Emmett",Seventh,60625,,,"Student (7), Prg Stud, csf, Child of Faculty"
+,"Weiss, Eden",Seventh,60625,,,Student (7)
+,"Wise, Ava",Seventh,60625,,,Student (7)
+,"Barakat, Omar",Eighth,60625,,,Student (8)
+,"Causevic, Aidan",Eighth,60646,,,Student (8)
+,"Danzig, Simone",Eighth,60640,,,Student (8)
+,"Detweiler, Avi",Eighth,60660,,,Student (8)
+,"Dimas, Mason",Eighth,60613,,,Student (8)
+,"Garton, Marcus",Eighth,60613,,,Student (8)
+,"Gerogiannis, Vivian",Eighth,60625,,,Student (8)
+,"Goldberg-Finkelstein, Gabriella",Eighth,60640,,,Student (8)
+,"Goldstein, Margaret",Eighth,60657,,,Student (8)
+,"Gordon, Oliver",Eighth,60640,,,Student (8)
+,"Hadland, Graham",Eighth,60613,,,Student (8)
+,"Hadland, Kendra",Eighth,60613,,,Student (8)
+,"Hood, Abigail",Eighth,60625,,,Student (8)
+,"Horowitz, Ellie",Eighth,60625,,,Student (8)
+,"Jones, Olivia",Eighth,60640,,,Student (8)
+,"Kizziah, Charles",Eighth,60640,,,Student (8)
+,"Lakomy, Avery",Eighth,60657,,,"Student (8), Prg Stud"
+,"Martinez, Luiza",Eighth,60625,,,Student (8)
+,"Masterson, Emma",Eighth,60660,,,"Student (8), csf, Child of Faculty"
+,"Michelson, Owen",Eighth,60625,,,Student (8)
+,"Murphy, Colin",Eighth,60625,,,Student (8)
+,"Murthy, Chaitan",Eighth,60660,,,Student (8)
+,"Rovner, Camille",Eighth,60618,,,Student (8)
+,"Shultz, Henry",Eighth,60640,,,Student (8)
+,"Uzicanin, Amel",Eighth,60645,,,Student (8)

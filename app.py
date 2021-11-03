@@ -6,7 +6,7 @@ import requests
 import geopandas as gpd
 from streamlit_folium import folium_static
 import folium
-import branca.colormap as cm
+from folium.plugins import MarkerCluster
 
 
 ###############################################################################################
@@ -22,7 +22,7 @@ lottie_book = load_lottieurl('https://assets9.lottiefiles.com/temp/lf20_aKAfIn.j
 st_lottie(lottie_book, height=200)
 
 # status_text = st.sidebar.empty()
-password_guess = st.text_input('What is the Password?')
+password_guess = st.text_input('What is the Password?', type="password")
 if password_guess != st.secrets["password"]:
     st.stop()
 
@@ -109,6 +109,8 @@ demo = st.selectbox(
 
 st.subheader(f'{demo} population in %')
 
+view_students = st.checkbox('View Student Locations')
+
 choropleth = folium.Choropleth(
  geo_data=chi_zips,
  name='Choropleth',
@@ -121,6 +123,18 @@ choropleth = folium.Choropleth(
  smooth_factor=0
 ).add_to(mymap)
 
+# add point for RPMS
+cluster = MarkerCluster().add_to(mymap)
+style_function = "font-size: 15px; font-weight: bold"
+folium.Marker(location=[41.980250,-87.675000], tooltip = "<h3>RPMS</h3>", popup = 'RPMS', style=style_function).add_to(cluster)
+
+# add points for student locations
+if view_students:
+    student_locations = pd.read_csv('data/student_locations.csv')
+    locationlist = student_locations.values.tolist()
+    marker_cluster = MarkerCluster().add_to(mymap)
+    for point in range(0, len(locationlist)):
+        folium.Marker(locationlist[point]).add_to(marker_cluster)
 
 # add labels indicating the name of the community
 style_function = "font-size: 15px; font-weight: bold"
@@ -132,3 +146,26 @@ folium.LayerControl().add_to(mymap)
 
 
 folium_static(mymap)
+
+# Summary Data for 60640
+
+st.markdown('#### Demographics for Lincoln Square')
+col1, col2, col3, col4= st.columns(4)
+col1.metric("Asian", "12.8 %")
+col2.metric("Black", "5.5 %")
+col3.metric("Latino", "21.11 %")
+col4.metric("White", "60.2 %")
+
+st.markdown('#### Demographics for Edgewater')
+col1, col2, col3, col4= st.columns(4)
+col1.metric("Asian", "9.6 %")
+col2.metric("Black", "10.2 %")
+col3.metric("Latino", "17 %")
+col4.metric("White", "62.6 %")
+
+st.markdown('#### Demographics for Ravenswood')
+col1, col2, col3, col4= st.columns(4)
+col1.metric("Asian", "7.8 %")
+col2.metric("Black", "3.1 %")
+col3.metric("Latino", "20.7 %")
+col4.metric("White", "67.9 %")
