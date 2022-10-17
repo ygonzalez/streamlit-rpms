@@ -2,3 +2,4 @@ plotly
 streamlit_lottie
 folium
 streamlit_folium
+geopandas
